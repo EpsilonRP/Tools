@@ -1,5 +1,5 @@
 @echo OFF
-echo Remove's Read-Only & assumes full ownership from all files, folders, and sub-folders contained within %~dp0 - Press any key to continue, or close to exit. 
+echo Remove's Read-Only and assumes full ownership from all files, folders, and sub-folders contained within %~dp0 - Press any key to continue, or close to exit. 
 pause
 echo ON
 attrib -r "%~dp0*" /s
